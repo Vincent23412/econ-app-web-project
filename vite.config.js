@@ -8,7 +8,7 @@ const outDir = resolve(__dirname, 'docs')
 export default defineConfig({
   root,
   plugins: [react()],
-  base: '/r-gallery2/',
+  base: '/econ-app-web-project/',
   build: {
     outDir,
     emptyOutDir: true,
